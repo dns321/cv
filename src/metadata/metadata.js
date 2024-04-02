@@ -1,68 +1,185 @@
 module.exports = {
-  name: 'William Shakespeare',
-  title: 'Poet, playwright and actor',
+  name: "Mukola Dera",
+  title: "FRONT - END DEVELOPER",
   facts: {
-    'Residence': '<a href="https://www.google.com/maps/place/London,+UK/@51.5285582,-0.2416814,11z/data=!3m1!4b1!4m5!3m4!1s0x47d8a00baf21de75:0x52963a5addd52a99!8m2!3d51.5072178!4d-0.1275862"><i class="fa fa-home fact-icon"></i>London</a>',
-    'Wiki': `<a href="https://en.wikipedia.org/wiki/William_Shakespeare">
-                  <i class="fa-brands fa-wikipedia-w fact-icon"></i>William_Shakespeare
-                </a>`,
-    'Twitter': `<a href="https://twitter.com/shakespeare"><i class="fa-brands fa-twitter fact-icon"></i>Shakespeare</a>`,
-    'Email': '<a href="mailto:wil64@yahoo.com"><i class="fa fa-envelope fact-icon"></i>wil64@yahoo.com</a>'
+    Residence:
+      '<a href="https://www.google.com/maps/place/%D0%9A%D0%B8%D1%97%D0%B2,+02000/@50.4020075,30.2030482,10z/data=!3m1!4b1!4m6!3m5!1s0x40d4cf4ee15a4505:0x764931d2170146fe!8m2!3d50.4503596!4d30.5245025!16zL20vMDJzbjM0?entry=ttu"><i class="fa fa-home fact-icon"></i>Kyiv</a>',
+    Linkedin: `<a href="www.linkedin.com/in/mukola-dera-159ab217/"><i class="fa-brands fa-twitter fact-icon"></i>Mukola Dera</a>`,
+    Email:
+      '<a href="mailto:dns3211@gmail.com"><i class="fa fa-envelope fact-icon"></i>dns3211@gmail.com</a>',
+    Phone:
+      '<a href="phone:+380685209955"><i class="fa fa-phone fact-icon"></i></i>+38(068)520-99-55</a>',
   },
   skills: [
-    ['Comedy', 100],
-    ['Love', 100],
-    ['Theater', 100],
-    ['Tragedy', 100],
-    ['Poetry', 100],
-    ['Erotic', 60],
-    ['Sonnets', 100],
-    ['Plays', 100],
-    ['Writing', 100],
-    ['Directing', 80],
-    ['Literature', 100],
-    ['Influence', 100],
+    ["HTML5", 100],
+    ["CSS3", 100],
+    ["SASS", 100],
+    ["NPM", 100],
+    ["WebPack", 100],
+    ["JavaScript", 100],
+    ["React.js", 100],
+    ["React Hooks", 60],
+    ["React-Router", 100],
+    ["Redux", 80],
+    ["CRUD", 100],
+    ["GitHub", 100],
+    ["Adaptiv layout", 100],
+    ["UX/UI", 100],
+    ["Scrum", 100],
+    ["Agile", 90],
   ],
+
+  soft: [
+    ["Teamwork"],
+    ["Creative"],
+    ["Responsible"],
+    ["Honest"],
+    ["Communicative"],
+    ["Fast learner"],
+  ],
+
   positions: [
     {
-      title: 'Hamlet',
-      period: 'Likely early 17th century',
-      skills: ['tragedy', 'philosophy', 'death'],
+      title: "FRONTEND DEVELOPER",
+      period: "MARCH 2022 - UP TO NOW",
+      skills: [
+        "HTML5",
+        "CSS3",
+        "SASS",
+        "NPM",
+        "JavaScript",
+        "React.JS",
+        "Redux",
+        "CRUD",
+        "GitHub",
+        "Adaptiv layout",
+      ],
+      company: ["Freelance"],
       contents: `
-Prince Hamlet is visited by his father's ghost and ordered to avenge his father's murder by killing King Claudius, his uncle. After struggling with several questions, including whether what the ghost said is true and whether it is right for him to take revenge, Hamlet, along with almost all the other major characters, is killed.
-`
+- Adaptive layout
+- Designing the functional websites with JS
+- Designing of the SPA on React.js
+- Using React.js
+- Working with SVG
+- Working with REST API
+- Working with GitHub
+`,
     },
     {
-      title: 'Twelfth Night',
-      period: '1600 – 1601',
-      skills: ['comedy', 'love'],
+      title: "FRONTEND DEVELOPER",
+      period: "JUNE 2021 - MARCH 2022",
+      skills: [
+        "HTML5",
+        "CSS3",
+        "SASS",
+        "NPM",
+        "JavaScript",
+        "CRUD",
+        "GitHub",
+        "Adaptiv layout",
+      ],
+      company: ["Aff1.com"],
       contents: `
-Viola finds herself shipwrecked in Illyria and, assuming that her brother Sebastian has died in the wreck, disguises herself as a man to gain a position in Duke Orsino's court. Orsino sends Viola (whom he knows as Cesario) to deliver a message to his love, Olivia. Olivia, however, dislikes the Duke. She falls in love with Viola, who she thinks is a man. Eventually, Viola's brother Sebastian, who in fact was unharmed in the wreck, reappears. At a critical moment, Viola's true identity is revealed when members of the court notice the similarities between her and Sebastian. Olivia quickly falls in love with Sebastian, and Viola confesses her love for the Duke.
-`
+- Adaptive layout
+- Designing the functional websites with JS
+- Team collaboration to work on the common project
+- Working with SVG
+- Working with Git
+`,
     },
     {
-      title: 'The Tragedy of Romeo and Juliet',
-      period: '1595–1596, with a possible early draft written in 1591',
-      skills: ['tragedy', 'death', 'love'],
+      title: "FULLSTACK DEVELOPER",
+      period: "MAY 2020 - JUNE 2021",
+      skills: [
+        "HTML5",
+        "CSS3",
+        "SASS",
+        "NPM",
+        "WebPack",
+        "JavaScript",
+        "React.js",
+        "React Hooks",
+        "React-Router",
+        "Redux",
+        "CRUD",
+        "GitHub",
+        "Adaptiv layout",
+        "UX/UI",
+        "Scrum",
+        "Agile",
+      ],
+      company: ["Freelance"],
       contents: `
-In Verona, Italy, two families, the Montagues and the Capulets, are in the midst of a bloody feud. Romeo, a Montague, and Juliet, a Capulet, fall in love and struggle to maintain their relationship in the face of familial hatred. After Romeo kills Juliet's cousin Tybalt in a fit of passion, things fall apart. Both lovers eventually commit suicide within minutes of each other, and the feuding families make peace over their recent grief.
-`
-    }
+- Adaptive layout
+- Designing the functional websites with JS
+- Designing of the SPA on React.js and Node.js
+- Using React.js
+- Team collaboration to work on the common project
+- Working with SVG
+- Working with REST API
+- Working with GitHub
+`,
+    },
   ],
+
+  projects: [
+    {
+      title: "WEBSTUDIO",
+      link: "https://dns321.github.io/webStudia/",
+      contents: `The task was to make an adaptive, two-page Web Studio site by the layout. The work was done on my own`,
+    },
+    {
+      title: "PLERDY",
+      link: "https://dns321.github.io/test-plerdy/",
+      contents: `Responsive layout site. The work was done on our own`,
+    },
+    {
+      title: "ICECREAM",
+      link: "https://dns3211.github.io/IceCream/",
+      contents: `We made an adaptive site for selling natural milk products. The work was performed in a team of 5 people. The project had to be completed in 5 days`,
+    },
+    {
+      title: "OLX-PROJECT",
+      link: "https://github.com/dns321/olx-project",
+      contents: `It is a site similar to OLX. Users could register, have a personal account, and create ads. 7 people worked on this project`,
+    },
+    {
+      title: "FIND MOVIES",
+      link: "https://github.com/dns321/movies",
+      contents: `The task was to make SPA finder-movies. The work was done on my own`,
+    },
+    {
+      title: "PHONEBOOK",
+      link: "https://github.com/dns321/phonebook",
+      contents: `The task was to make SPA phonebook. The work was done on my own`,
+    },
+    {
+      title: "GRID-WITH-CARDS",
+      link: "https://github.com/dns321/grid-with-cards",
+      contents: `The task was to make SPA grids with cards that are added upon request and stored with the possibility of deleting them. The work was done on our own`,
+    },
+  ],
+
   experience: [
     {
-      header: 'Performance',
-      skills: ['theater', 'play'],
+      header: "Medical representative - 2012 – 2020",
+      company: ["at Fitopharm, Progresspharm, Avantmed"],
+      skills: ["Teamwork", "Creative", "Responsible", "Honest", "Communicable"],
       contents: `
-Thousands of performances of my plays have been staged since the end of the 16th century. Many of my greatest plays were performed by the Lord Chamberlain's Men and King's Men acting companies at the [Globe](https://en.wikipedia.org/wiki/Globe_Theatre) and Blackfriars Theatres.
-`
+- Communication with clinics doctors, negotiation.
+- Creation statistical and analytical reports
+- CRM system (1C, team soft, Quadra soft)
+`,
     },
     {
-      header: 'Poetry',
-      skills: ['poetry', 'erotic'],
+      header: "IT-expert, Helpdesk - 2009 – 2010",
+      company: ["at Premium IT Solutions"],
+      skills: ["Teamwork", "Creative", "Responsible", "Honest", "Communicable"],
       contents: `
-In 1593 and 1594, when the theatres were closed because of plague, I published two narrative poems on sexual themes, Venus and Adonis and The Rape of Lucrece. I dedicated them to Henry Wriothesley, Earl of Southampton.
-`
-    }
-  ]
+- IT-support at the office
+- Providing remote IT-support organizations
+- Troubleshooting with software and hardware
+`,
+    },
+  ],
 };
