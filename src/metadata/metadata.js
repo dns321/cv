@@ -4,11 +4,11 @@ module.exports = {
   facts: {
     Residence:
       '<a href="https://www.google.com/maps/place/%D0%9A%D0%B8%D1%97%D0%B2,+02000/@50.4020075,30.2030482,10z/data=!3m1!4b1!4m6!3m5!1s0x40d4cf4ee15a4505:0x764931d2170146fe!8m2!3d50.4503596!4d30.5245025!16zL20vMDJzbjM0?entry=ttu"><i class="fa fa-home fact-icon"></i>Kyiv</a>',
-    Linkedin: `<a href="www.linkedin.com/in/mukola-dera-159ab217/"><i class="fa-brands fa-twitter fact-icon"></i>Mukola Dera</a>`,
+    Linkedin: `<a href="http://linkedin.com/in/mukola-dera-159ab217/"><i class="fa-brands fa-twitter fact-icon"></i>Mukola Dera</a>`,
     Email:
       '<a href="mailto:dns3211@gmail.com"><i class="fa fa-envelope fact-icon"></i>dns3211@gmail.com</a>',
     Phone:
-      '<a href="phone:+380685209955"><i class="fa fa-phone fact-icon"></i></i>+38(068)520-99-55</a>',
+      '<a href="tel:+380685209955"><i class="fa fa-phone fact-icon"></i></i>+38(068)520-99-55</a>',
   },
   skills: [
     ["HTML5", 100],
